@@ -13,7 +13,7 @@ This model uses a simple European natural gas market dataset, built entirely fro
 
 Understanding the European natural gas market is important context for interpreting TTF and other European gas prices. Some of the most important fundamental drivers of the market are underground storage levels, winter temperatures, and LNG availability. Data on these drivers is available at different frequencies and depths of history: some series are only available monthly but stretch back further, while others are available daily but have a shorter history. This study uses the monthly series throughout, prioritizing a longer, consistent history over higher-frequency granularity.
 
-## 3. Dataset
+## 3. Dataset - Selected Portions
 
 | Variable | Source | Frequency | Period |
 |---|---|---|---|
