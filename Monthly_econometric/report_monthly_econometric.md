@@ -1,4 +1,4 @@
-# European Natural Gas Data and Modelling for Forecasting TTF Prices
+# Monthly European Natural Gas Data and Modelling for Forecasting TTF Prices
 
 **Author:** G. Kurokawa
 **Date:** July 2026
