@@ -1,7 +1,0 @@
-pandas
-requests
-python-dotenv
-yfinance
-openpyxl
-plotly
-statsmodels
