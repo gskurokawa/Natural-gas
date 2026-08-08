@@ -28,5 +28,3 @@ of fundamentals, whereas its *volatility* is forecastable out of sample.
   chain and compared with the forecast to read off the variance risk premium.
 
 - **References/** — Academic references cited in the daily and monthly studies.
-
-Glen Kurokawa
