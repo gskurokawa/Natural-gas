@@ -1,4 +1,4 @@
-# Applying the HAR-X(+VIX) Volatility Forecast to TTF Options: A Worked Illustration of the Variance Risk Premium
+# Applying the HAR-X(+VIX) Volatility Forecast to TTF Options: A Worked Illustration
 
 Glen Kurokawa
 
