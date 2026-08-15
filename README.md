@@ -29,4 +29,4 @@ of fundamentals, whereas its *volatility* is forecastable out of sample.
 
 - **References/** — Academic references cited in the daily and monthly studies.
 
-The PDF version of the monthly and daily TTF papers are in the main directory here.
+The PDF version of the monthly and daily TTF papers are in the main directory here as ttf_monthly_paper.pdf and ttf_daily_paper.pdf.
