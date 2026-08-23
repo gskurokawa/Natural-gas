@@ -13,7 +13,7 @@ For this particular multi-tiered RAG to work as intended, the exact 2 + 8 = 10 p
 
 ## How the script works
 
-The whole system is one file, `tiered_rag_langchain.py`, and it runs two ways: from the command line (`ingest`, then `ask "…"`), or as a simple local web page with an Ingest button, a question box, an answer pane, and the corpus listed down the side. There is also an option to call an AI agent if there is a discrepancy between the primary and secondary papers. 
+The whole system is one file, `tiered_rag_langchain.py`, and it runs two ways: from the command line (`ingest`, then `ask "…"`), or as a simple local web page (html, CSS, Javascript) with an Ingest button, a question box, an answer pane, and the corpus listed down the side. There is also an option to call an AI agent if there is a discrepancy between the primary and secondary papers. The code is organized using LangChain.
 
 `ingest`
 
@@ -32,7 +32,7 @@ Every chunk is then converted into an embedding: a list of numbers representing 
 
 ## How the multi-tiered RAG model was evaluated
 
-For the evaluation, 50 test questions with known answers, each labelled with the paper and page, were generated. There were 20 questions relating to the primary tier (with 5 that overlap with the secondary tier), 20 to the secondary tier (with 5 that overlap with the primary tier), 5 where there is conflict between the tiers, and 5 where there is no answer in either tier.
+For the evaluation, 50 test questions with known answers, each labelled with the paper and page, were generated. There were 20 questions relating to the primary tier (with 5 that overlap with the secondary tier), 20 to the secondary tier (with 5 that overlap with the primary tier), 5 where there is conflict between the tiers, and 5 where there is no answer in either tier. RAGAS is used as an LLM judge.
 
 These questions were then used to test and tune the multi-tiered RAG model.
 

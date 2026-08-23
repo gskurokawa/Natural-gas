@@ -30,6 +30,6 @@ of fundamentals, whereas its *volatility* is forecastable out of sample.
 - **References/** — Academic references cited in the daily and monthly studies.
   
 - **RAG/** — A multi-tiered RAG (Retrieval-Augmented Generation) model with optional
-  AI agent, as well as a light-weight Javascript front-end UI where users can ask questions about the two TTF papers in this directory and most of the background literature in the References folder. This is an AI model where the user can optionally use their LLM of choice (note: there are free default LLMs used in the RAG model, but higher-quality LLMs can be optionally used if the user has paid tokens).
+  AI agent, as well as a light-weight html/CSS/Javascript front-end UI where users can ask questions about the two TTF papers in this directory and most of the background literature in the References folder. This is an AI model where the user can optionally use their LLM of choice (note: there are free default LLMs used in the RAG model, but higher-quality LLMs can be optionally used if the user has paid tokens). Code organized with LangChain. Model hyperparameters tuned with RAGAS.
   
 The PDF version of the monthly and daily TTF papers are in the main directory here as ttf_monthly_paper.pdf and ttf_daily_paper.pdf.
